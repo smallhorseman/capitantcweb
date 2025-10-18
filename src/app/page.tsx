@@ -50,11 +50,14 @@ export default function Home() {
                 </span>
               </div>
             </div>
-            <div className="relative h-96">
-              <div className="absolute inset-0 bg-ocean-100 rounded-lg flex items-center justify-center">
-                <Fish className="w-24 h-24 text-ocean-400" />
-                <span className="text-ocean-600 ml-4">Captain Tracy Photo Coming Soon</span>
-              </div>
+            <div className="relative h-96 rounded-lg overflow-hidden shadow-lg">
+              <Image
+                src="https://res.cloudinary.com/dmjxho2rl/image/upload/v1760764748/0033A1C4-E107-4C86-B181-265E507FB6A4_1_102_o_xl9don_e_gen_restore_c_fill_ar_9_16_e_improve_e_sharpen_aq9koh.jpg"
+                alt="Captain Tracy with a great catch - Gulf Coast fishing expertise"
+                fill
+                className="object-cover"
+                priority
+              />
             </div>
           </div>
         </div>
